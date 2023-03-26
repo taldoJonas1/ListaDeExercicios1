@@ -55,13 +55,21 @@ function exe7(){
 }
 
 function exe8(){
-    
+    let kg = Number (document.getElementById("kg").value)
+    let g = (kg*1000)
+    alert ("O seu peso em gramas é: " + g + "g")
 }
 
 function exe9(){
-    
+    let bmaior = Number (document.getElementById("bmaior").value)
+    let bmenor = Number (document.getElementById("bmenor").value)
+    let h = Number (document.getElementById("h").value)
+    let a = (((bmaior + bmenor)* h)/2)
+    alert ("A área do trapézio é: " + a)
 }
 
 function exe10(){
-    
+    let l = Number (document.getElementById("l").value)
+    let a = (l*l)
+    alert ("A área do quadrado é: " + a)
 }
